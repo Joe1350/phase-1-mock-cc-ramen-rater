@@ -31,11 +31,13 @@ editRamenForm.addEventListener('submit', e => {
     e.preventDefault();
     updateRamen(e);
 
-    ramenMenu.innerText = ''
-    fetch(ramensURL)
-    .then(r => r.json())
-    .then(ramens => ramens.forEach(ramen => renderRamen(ramen)))
-    
+    // when I update it won't reload the menu...
+
+    // ramenMenu.innerText = ''
+    // fetch(ramensURL)
+    // .then(r => r.json())
+    // .then(ramens => ramens.forEach(ramen => renderRamen(ramen)))
+
     editRamenForm.reset();
 })
 
@@ -74,7 +76,7 @@ function handleForm(e) {
 };
 
 // function handleDelete() {
-
+    // haven't set up yet
 // }
 
     // CRUD
@@ -131,7 +133,7 @@ function deleteRamenRequest(ramen) {
     // initalize
 getAllRamens();
 
-
+// I'm not sure how to render first ramen on page load
 
 
 
