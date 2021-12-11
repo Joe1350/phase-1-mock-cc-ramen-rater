@@ -39,6 +39,14 @@
       "image": "./assets/ramen/kojiro.jpg",
       "rating": 6,
       "comment": "Perfect for a cold night."
+    },
+    {
+      "name": "top ramen",
+      "restaurant": "my kitchen",
+      "image": "https://ipcdn.freshop.com/resize?url=https://images.freshop.com/37517/9731b0f0fbf330e7e4a54c4115081b33_large.png&width=256&type=webp&quality=80",
+      "rating": "1",
+      "comment": "Cheap!",
+      "id": 6
     }
   ]
 }
